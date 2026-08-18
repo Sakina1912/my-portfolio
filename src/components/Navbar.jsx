@@ -46,6 +46,7 @@ function Navbar() {
             </li>
             <li className="transition-all duration-300 hover:scale-105">
               <a
+                href="#Projects"
                 onClick={closeMenu}
                 className="text-sm flex-auto cursor-pointer text-teal-100 hover:text-white transition-colors duration-300"
               >

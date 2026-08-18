@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="SV monogram">
+  <defs>
+    <linearGradient id="sv-ring" x1="0.08" y1="0.92" x2="0.92" y2="0.08">
+      <stop offset="0" stop-color="#16E8C8"/>
+      <stop offset="0.5" stop-color="#2EE8DE"/>
+      <stop offset="1" stop-color="#22ECEA"/>
+    </linearGradient>
+    <linearGradient id="sv-letter" gradientUnits="userSpaceOnUse" x1="420.4" y1="100" x2="92" y2="393.8">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.38" stop-color="#FAFAF6"/>
+      <stop offset="0.72" stop-color="#D8F4EE"/>
+      <stop offset="1" stop-color="#A4EAE2"/>
+    </linearGradient>
+    <clipPath id="sv-disc"><circle cx="256" cy="256" r="230"/></clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="230" fill="#01252E"/>
+  <g clip-path="url(#sv-disc)">
+    <path fill="#01353E" d="M26 322C96 304 160 358 232 386c68 26 164 36 254 20v80H26z"/>
+    <path fill="#035962" d="M26 408c78-14 150 24 236 38 74 12 158 10 224-6v46H26z"/>
+  </g>
+  <circle cx="256" cy="256" r="239" fill="none" stroke="url(#sv-ring)" stroke-width="18"/>
+  <g fill="url(#sv-letter)" transform="translate(256 256) scale(0.965) translate(-256.2 -246.9)">
+    <path d="M163.6 306.5Q148.3 306.5 136.4 301.6Q124.5 296.7 115.7 288.4L100.5 305.3H92V245.8H101.6Q104.5 255.6 109.5 264.8Q114.5 273.9 121.8 281.1Q129.1 288.2 138.8 292.4Q148.6 296.5 160.9 296.5Q174.1 296.5 183.6 292.4Q193.2 288.3 198.3 280.5Q203.4 272.8 203.4 261.9Q203.4 250.7 197.7 243.1Q192 235.5 182.5 230.1Q173.1 224.6 161.8 219.9Q150.5 215.2 139.2 209.8Q127.9 204.4 118.5 196.9Q109.1 189.4 103.4 178.5Q97.7 167.6 97.7 151.7Q97.7 135.8 105.5 124.2Q113.3 112.6 126.4 106.3Q139.5 100 155.3 100Q167.5 100 178.1 103.9Q188.7 107.8 197.1 115.4L212.2 100H220.4V158H210.8Q206.5 142.8 199 132.2Q191.6 121.6 181.2 116Q170.9 110.4 157.9 110.4Q140.9 110.4 131.7 117.8Q122.5 125.2 122.5 138.1Q122.5 148.2 128.2 155.1Q133.9 162.1 143.3 167.3Q152.8 172.6 164 177.3Q175.2 182.1 186.5 187.7Q197.7 193.3 207.1 201Q216.5 208.7 222.2 219.8Q228 230.9 228 246.9Q228 265.1 219.7 278.5Q211.5 291.8 196.9 299.2Q182.4 306.5 163.6 306.5Z"/>
+    <path d="M420.4 190V199.7H397.4L328.5 393.8H309.3L242.1 199.7H220V190H308.5V199.7H282.5L332.3 354.3L386.3 199.7H356.1V190Z"/>
+  </g>
+</svg>

@@ -1,8 +1,11 @@
 import { FiGithub } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { MdOutlineEmail } from "react-icons/md";
+import ContactForm from "./ContactForm";
+import { useState } from "react";
 
 function Contact() {
+  const [showContactForm, setShowContactForm] = useState(false);
   return (
     <div
       id="Contact"
@@ -50,7 +53,7 @@ function Contact() {
         <li className="flex flex-col items-center cursor-pointer transition-all duration-300 group">
           <a
             href="mailto:sakku.kagalwala@gmail.com"
-            onClick={(e) => console.log(e.currentTarget.href)}
+            onClick={() => setShowContactForm(true)}
           >
             <div className="bg-teal-600/20 border border-teal-300/30 rounded-xl p-4 group-hover:bg-teal-600/40 group-hover:border-teal-400/60 group-hover:shadow-lg group-hover:shadow-teal-500/30 transition-all duration-300">
               <MdOutlineEmail className="text-4xl text-white group-hover:text-teal-200 transition-colors duration-300" />
@@ -61,6 +64,9 @@ function Contact() {
           </a>
         </li>
       </ul>
+      {showContactForm && (
+        <ContactForm setShowContactForm={setShowContactForm} />
+      )}
     </div>
   );
 }
