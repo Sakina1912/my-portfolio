@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../assets/TodoProject.png";
-import kanbanBoard from "../assets/KanbanBoardProject.png";
+import kanbanBoard from "../assets/kanbanBoardProject.png";
 import movieHub from "../assets/Imdb_cloneProject.png";
 import GroceryList from "../assets/GroceryListProject.png";
 import ExpenseTracker from "../assets/ExpenseTrackerProject.png";
@@ -11,7 +11,7 @@ const Project = () => {
       id: 1,
       title: "Todo Application",
       description:
-        "A responsive task management application built with React, allowing users to create, organize, filter, sort, edit, and manage tasks efficiently.",
+        "A responsive task management application built with React, featuring task creation, editing, filtering, sorting, and organization. The project also demonstrates EmailJS integration, enabling users to send messages directly through the portfolio’s contact form.",
       image: Todo,
       liveURL: "http://localhost:5173/",
       gitHubURL: "http://localhost:5173/",
