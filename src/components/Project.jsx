@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../assets/TodoProject.png";
-import kanbanBoard from "../assets/kanbanBoardProject.png";
+import kanbanBoard from "../assets/KanbanBoardProject.png";
 import movieHub from "../assets/Imdb_cloneProject.png";
 import GroceryList from "../assets/GroceryListProject.png";
 import ExpenseTracker from "../assets/ExpenseTrackerProject.png";
