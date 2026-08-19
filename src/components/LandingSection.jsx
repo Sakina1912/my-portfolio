@@ -5,6 +5,7 @@ import { MdDevices } from "react-icons/md";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import LandingSectionCards from "./LandingSectionCards";
 import ContactForm from "./ContactForm";
+import resume from "../assets/SakinaVora_Resume.pdf";
 
 import { useState } from "react";
 // import emailjs from "@emailjs/browser";
@@ -116,7 +117,7 @@ function LandingSection() {
           Get in Touch
         </button>
         <button className="bg-gradient-to-r from-teal-600 to-teal-500 px-8 py-3 text-white font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/40 hover:scale-105 w-full sm:w-auto text-center">
-          <a href="/resume.pdf" download className="...">
+          <a href={resume} download className="...">
             Download Resume
           </a>
         </button>
